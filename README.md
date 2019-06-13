@@ -74,12 +74,20 @@ git commit -m "First commit: Introduction"
 
 ```bash
 # Push changes
-git push origin
+git push
 ```
 
 #### Git Pull Request
 
 Go back to github and create Pull Request from recent commit
+
+#### Sync Local Repo to Central Repo
+
+```bash
+git fetch upstream
+git checkout master
+git merge upstream/master
+```
 
 #### Git Forking Flow
 
