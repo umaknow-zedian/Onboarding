@@ -83,7 +83,9 @@ Go back to github and create Pull Request from recent commit
 
 #### Git Forking Flow
 
-![](Fork Diagram.draw.io.png)
+<img src="Fork Diagram.draw.io.png" width="800" />
+
+
 
 
 
