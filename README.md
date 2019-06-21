@@ -25,18 +25,18 @@ Ce document s'agit d'une manière intéractive à l'initialization en tant que n
 
 |      | :checkered_flag:     | Task                                            | Information / Aide     |
 | ---- | -------------------- | ----------------------------------------------- | ---------------------- |
-| 1    | :black_small_square: | Fork this Repository                            | [help](Contributing.md)      |
-| 2    | :black_small_square: | Clone your Fork on local computer               | [help](Contributing.md)     |
-| 3    | :black_small_square: | Add Remote `Upstream` this `central` repository | [help](Contributing.md) |
-| 4    | :black_small_square: | Create `bio.md` in folder Employees             | [help](Contributing.md)              |
-| 5    | :black_small_square: | Open Editor of choice and add bio in `bio.md`   | [help](Contributing.md)              |
-| 6    | :black_small_square: | `git commit` changes                            | [help](Contributing.md)              |
-| 7    | :black_small_square: | `git push` changes to your Fork                 | [help](Contributing.md)              |
-| 8    | :black_small_square: | Create a Pull Request                           | [help](Contributing.md)              |
+| 1    | :black_small_square: | Fork ce repository                          | [aide](Contributing.md)  |
+| 2    | :black_small_square: | Cloner ton Fork sur ton ordi             | [aide](Contributing.md) |
+| 3    | :black_small_square: | Ajouter la Remote `Upstream` dans le repository `central` | [aide](Contributing.md) |
+| 4    | :black_small_square: | Créer `bio.md` dans le dossier _Employees_       | [aide](Contributing.md)          |
+| 5    | :black_small_square: | Ouvrir un éditeur de ton choix et écrire dans `bio.md`   | [aide](Contributing.md)          |
+| 6    | :black_small_square: | `git commit` les changements                            | [aide](Contributing.md)              |
+| 7    | :black_small_square: | `git push` les changements à ton Fork             | [aide](Contributing.md)              |
+| 8    | :black_small_square: | Créer un Pull Request                           | [aide](Contributing.md)              |
 
 
 
-#### Git Forking Flow
+#### Git Forking Workflow
 
 <img src="Fork Diagram.draw.io.png" width="800" />
 

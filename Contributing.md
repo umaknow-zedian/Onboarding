@@ -22,7 +22,7 @@ Maintenant, tu as le choix d'effectuer les prochaines étapes à l'aide d'un des
 Le `git clone` prend un URL et copie le contenu ainsi que le *commit history* du repository sur ta machine locale. Git va également ajouter un _remote_ nommé **origin** qui pointe sur **ton** server-side repository, ce qui va te laisser de pousser tes changements vers ton server-side repository.
 
 ```bash
-# clone repo
+# cloner le repo
 git clone username@host:/path/to/repository
 ```
 
@@ -34,9 +34,9 @@ Fait attention, tu ne pourras pas directement `git push` tes changements dans ce
 
 ```bash
 cd <git-repo-name>
-# add remote
+# ajouter une remote
 git remote add upstream <server>
-# check all remotes
+# voir toutes les remote existantes
 git remote -v
 ```
 
@@ -47,7 +47,7 @@ Crée ta biographie avec tes loisirs, etc. Tout ce que tu voudrais qu'on sache. 
 Noter qu'on utiliser une commande bash pour écrire dans un fichier markdown. Tu pourrais utiliser d'autre éditeurs de texte (Notepad, Vim, etc.).
 
 ```bash
-# Create file <name.bio> in Employees directory and write bio
+# Créer un fichier <name.bio> dans le dossier Employees et écrire bio
 echo "Lorem Ipsum" >> Employees/<name.bio>.md
 ```
 
@@ -56,9 +56,9 @@ echo "Lorem Ipsum" >> Employees/<name.bio>.md
 Maintenant que tu as effectué des changements, tu voudras pousser ces changements sur ton server-side repository. Mais en premier, il faut stage les changements que tu voudrais commit et ensuite les commit avec un message explicatif.
 
 ```bash
-# Stage changes
+# Stage les changements
 git add .
-# Commit changes
+# Commit les changements
 git commit -m "First commit: Introduction"
 ```
 
@@ -67,7 +67,7 @@ git commit -m "First commit: Introduction"
 Maintenant tu peux pousser tes changements sur ton repository. Fait attention, si tu crée d'autres branches, il faudra spécifier la branche auquel tu pousse tes commit.
 
 ```bash
-# Push changes
+# Pousser les changements
 git push
 ```
 
